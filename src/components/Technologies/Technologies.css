@@ -1,0 +1,58 @@
+.logos {
+
+    margin: 150px 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.technology-header {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.technologies {
+    display: flex;
+    flex-direction: column;
+}
+
+.logos-slide {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.tech-title {
+    font-size: 1.5rem;
+    color: var(--light-grey);
+}
+
+.tech-icons {
+    max-width: 100%;
+    width: 5rem;
+    margin: 10px 5px;
+    padding: 0 10px;
+}
+
+.postgresql {
+    max-width: 100%;
+    width: 5rem;
+    margin: 6.5px 5px;
+    padding: 0 10px;
+}
+
+.tech-contents {
+    display: flex;
+    justify-content: center;
+}
+
+.invert-white {
+    filter: invert(100%);
+}
+
+
+.tech-font {
+    font-size: 1rem;
+    color: rgb(230, 234, 239);
+}

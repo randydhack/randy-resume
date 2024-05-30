@@ -1,0 +1,55 @@
+/* Project Section */
+
+.project-section {
+    margin-top: 350px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px;
+  }
+
+  .my_projects_text {
+    color: var(--white);
+    font-size: 8vw;
+    font-weight: 500;
+    line-height: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-images-container {
+    display: grid;
+    gap: 50px;
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .project__images {
+    width: 100%;
+    border-radius: 50px;
+    height: 400px;
+    cursor: pointer;
+  }
+
+  .image-wrapper {
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 50px;
+  }
+
+  .works {
+    flex-direction: column;
+    row-gap: 30px;
+    max-height: 650px;
+    display: flex;
+    position: relative;
+  }
+
+  .work-descriptions {
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+  }
